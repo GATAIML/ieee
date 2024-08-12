@@ -1,18 +1,26 @@
 [
     {
-        "title": "Brain O Vision",
-        "subtitle": "Python Full Stack Using REACT JS - Workshop & Hackthon Program",
-        "date": "29 JAN - 2 FEB 2024",
-        "link": "https://gat-aiml.vercel.app/Brain-O-Vision",
-        "lastUpdated": "2024-01-20 12:00PM",
-        "image": "https://gat-aiml.vercel.app/contents/Brain-O-Vision/BRAIN-O-VISION-poster.jpg"
+        "title": "WEBATHON",
+        "subtitle": "Fusion of Quiz & Debate",
+        "date": "24 JAN 2024",
+        "link": "",
+        "lastUpdated": "2024-01-11 14:30",
+        "image": "https://gat-aiml.vercel.app/contents/events/displayBanners/WEBATHON.png"
     },
     {
         "title": "TECH - FUSION",
         "subtitle": "Fusion of Quiz & Debate",
         "date": "24 JAN 2024",
-        "link": "https://gat-aiml.vercel.app/Tech-Fusion",
+        "link": "",
         "lastUpdated": "2024-01-11 14:30",
-        "image": "https://gat-aiml.vercel.app/contents/TechFusion/TechFusion-Poster.jpg"
+        "image": "https://gat-aiml.vercel.app/contents/events/displayBanners/Tech Fusion.png"
+    },
+    {
+        "title": "AIdeathon",
+        "subtitle": "Fusion of Quiz & Debate",
+        "date": "24 JAN 2024",
+        "link": "",
+        "lastUpdated": "2024-01-11 14:30",
+        "image": "https://gat-aiml.vercel.app/contents/events/displayBanners/AIdeathon.png"
     }
 ]
