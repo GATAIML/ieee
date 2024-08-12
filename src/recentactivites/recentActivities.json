@@ -3,7 +3,7 @@
         "title": "WEBATHON",
         "subtitle": "Fusion of Quiz & Debate",
         "date": "24 JAN 2024",
-        "link": "",
+        "link": "webathon",
         "lastUpdated": "2024-01-11 14:30",
         "image": "https://gat-aiml.vercel.app/contents/events/displayBanners/WEBATHON.png"
     },
@@ -11,7 +11,7 @@
         "title": "TECH - FUSION",
         "subtitle": "Fusion of Quiz & Debate",
         "date": "24 JAN 2024",
-        "link": "",
+        "link": "techfusion",
         "lastUpdated": "2024-01-11 14:30",
         "image": "https://gat-aiml.vercel.app/contents/events/displayBanners/Tech Fusion.png"
     },
@@ -19,7 +19,7 @@
         "title": "AIdeathon",
         "subtitle": "Fusion of Quiz & Debate",
         "date": "24 JAN 2024",
-        "link": "",
+        "link": "aideathon",
         "lastUpdated": "2024-01-11 14:30",
         "image": "https://gat-aiml.vercel.app/contents/events/displayBanners/AIdeathon.png"
     }

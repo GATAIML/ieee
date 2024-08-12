@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './RecentActivities.css';
 import activities from './recentActivities.json'; // Adjust the path as needed
 
@@ -15,7 +16,11 @@ const RecentActivities = () => {
                                 <h3>{activity.title}</h3>
                                 {/* <p>{activity.subtitle}</p> */}
                                 {/* <p>{activity.date}</p> */}
-                                <a href={activity.link} rel="noopener noreferrer">Read more</a>
+                                <Link 
+                                    to={`/recent-events/${activity.link}`} 
+                                >
+                                    Read more
+                                </Link>
                                 {/* <p className="last-updated">Last updated: {activity.lastUpdated}</p> */}
                             </div>
                         </div>

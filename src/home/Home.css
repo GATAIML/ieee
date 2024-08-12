@@ -52,30 +52,21 @@ body.dark-mode {
 
 .home-content {
     position: relative;
-    /* Ensure the content is above the pseudo-element */
     max-width: 90%;
-    /* Responsive width */
     padding: 20px;
     background-color: transparent;
-    /* Remove background color */
     border-radius: 10px;
     transition: background-color 0.3s ease;
     display: flex;
-    /* Flexbox layout */
     justify-content: center;
-    /* Center content horizontally */
     align-items: center;
-    /* Center content vertically */
     text-align: center;
     color: var(--danger-color);
-    /* Ensure text color contrasts with the background */
     white-space: pre-wrap;
-    /* Allow text to wrap and handle new lines */
     line-height: 1.2;
     font-family: sans-serif;
     font-weight: 800;
     font-size: 100px;
-    /* Large font size for emphasis */
     min-height: 100vh;
 }
 
