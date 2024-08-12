@@ -1,0 +1,141 @@
+:root {
+    --primary-color: #4A90E2;
+    --secondary-color: #FFFFFF;
+    --accent-color: #50E3C2;
+    --danger-color: #E94A4A;
+    --background-color: #F5F7FA;
+    --text-color: #333333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    --primary-color: #0D47A1;
+    --secondary-color: #121212;
+    --accent-color: #00BFA5;
+    --danger-color: #FF5252;
+    --background-color: #1E1E1E;
+    --text-color: #E0E0E0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem 0;
+    overflow: hidden;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.footer-logo {
+    width: auto;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-table {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px; /* Optional: Set a maximum width */
+}
+
+.footer-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.footer-column {
+    vertical-align: top;
+    padding: 1rem;
+}
+
+.footer-social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.footer-social-icons a {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--danger-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: -5px;
+}
+
+.footer-social-icons i {
+    margin-right: -5px;
+}
+
+.footer-social-icons a:hover {
+    background-color: var(--text-color);
+}
+
+.footer-map iframe {
+    border: 0;
+    width: 100%;
+    max-width: 250px; /* Adjust as needed */
+    height: 250px;
+}
+
+.footer-bottom {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+.footer-bottom a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer-table {
+        width: 100%;
+    }
+
+    .footer-column {
+        padding: 0.5rem;
+        display: block;
+        width: 100%;
+    }
+
+    .footer-map iframe {
+        width: 100%;
+        max-width: 100%; /* Ensure it doesn’t overflow */
+        height: 200px; /* Adjust height if needed */
+    }
+}
