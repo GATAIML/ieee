@@ -5,7 +5,7 @@
         "date": "24 JAN 2024",
         "link": "webathon",
         "lastUpdated": "2024-01-11 14:30",
-        "image": "https://gat-aiml.vercel.app/contents/events/displayBanners/WEBATHON.png"
+        "image": "https://gat-aiml-2.vercel.app/contents/events/displayBanners/WEBATHON.png"
     },
     {
         "title": "TECH - FUSION",
@@ -13,7 +13,7 @@
         "date": "24 JAN 2024",
         "link": "techfusion",
         "lastUpdated": "2024-01-11 14:30",
-        "image": "https://gat-aiml.vercel.app/contents/events/displayBanners/Tech Fusion.png"
+        "image": "https://gat-aiml-2.vercel.app/contents/events/displayBanners/Tech Fusion.png"
     },
     {
         "title": "AIdeathon",
@@ -21,6 +21,6 @@
         "date": "24 JAN 2024",
         "link": "aideathon",
         "lastUpdated": "2024-01-11 14:30",
-        "image": "https://gat-aiml.vercel.app/contents/events/displayBanners/AIdeathon.png"
+        "image": "https://gat-aiml-2.vercel.app/contents/events/displayBanners/AIdeathon.png"
     }
 ]
